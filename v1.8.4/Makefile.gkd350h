@@ -122,7 +122,8 @@ X-OD-NeedsDownscaling=true
 endef
 export DESKTOP_ENTRY
 
-all: $(TARGET) opk
+# all: $(TARGET) opk
+all: $(TARGET) 
 
 -include $(RARCH_OBJ:.o=.d)
 
